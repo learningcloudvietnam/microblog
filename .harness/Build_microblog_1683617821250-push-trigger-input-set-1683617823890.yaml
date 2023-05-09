@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_microblog_1683617821250-push-trigger-input-set
+  identifier: Build_microblog_1683617821250pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_microblog_1683617821250
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
